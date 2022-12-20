@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block css %}{% endblock %}
+    
+</head>
+<body>
+
+
+{% load static %}
+    <div class="accoutn_main">
+        <video muted loop autoplay class="video">
+            <source src="{% static '/video/cod.mp4' %}" type="video/mp4">
+        </video>
+
+<!--watching html nav -->
+
+
+
+
+   <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <a href="index" class="navbar-brand">
+                    <img src="{% static '/images/gamhub3.png' %}" class="img-fluid logo" alt="" height="150" width="230"/>
+                  </a>
+            </div>
+         
+
+
+
+
+
+                
+
+
+            <div class="menu">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="watching">GAMES</a></li>
+                    <li><a href="social">SOCIAL</a></li>
+                    <li><a href="faq">FAQ</a></li>
+                    <li><a href="contact">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>                         
+
+        </div> 
+        {% block body %}{% endblock %}
+    </div>
+{% block js %}{% endblock js %}
+   
+</body>
+</html>

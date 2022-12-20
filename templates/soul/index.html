@@ -1,0 +1,47 @@
+{% extends 'soul/basic.html' %}
+{% block css %}
+{% load static %}
+<title>GAMHUB</title>
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+    
+    {% endblock %}
+    {% block body %}
+    <div class="content">
+        <h1>PLAY & <br><span> WIN IT !</span> <br>About</h1>
+        <p class="par">A website to connect gamers across the globe to compete for real money prizes <br> and a global leader board.
+            Addition to that, specialized gaming content like articles,<br> short videos, live streams and strategies so the audience will get a one single platform <br>
+             to spend their gaming time.
+            </p>
+
+            <button class="cn"><a href="">JOIN US</a></button>
+
+            <div class="form" action="watching">
+                <h2>Login Here</h2>
+                <input type="email" name="email" placeholder="Enter Email Here" required>
+                <input type="password" name="pass" placeholder="Enter Password Here" required>
+                <!--button class="btnn"><a href="watching">Login</a></button-->
+                <button class="btnn" type="submit" value="Submit"><a href="watching">Login</a></button>
+
+
+                <p class="link">Don't have an account<br>
+                <a href="#">Sign up </a> here</a></p>
+                <p class="liw">Log in with</p>
+
+                <div class="icons">
+                    <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.instagram.com/accounts/login/"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://twitter.com/i/flow/login"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="https://mail.google.com/"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="https://www.skype.com/en/"><ion-icon name="logo-skype"></ion-icon></a>
+                </div>
+            
+
+            </div>
+                </div>
+            </div>
+    </div>
+    {% endblock body %}
+       
+    {% block js %}
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    {% endblock js %}

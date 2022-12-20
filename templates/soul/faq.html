@@ -1,0 +1,116 @@
+{% extends 'soul/basic.html' %}
+{% block css %}
+{% load static %}
+
+    <title>GAMHUB</title>
+    <link rel="stylesheet" href="{% static '/css/styles.css' %}">
+{% endblock %}
+  {% block body %}
+
+            <!-- <h2>Frequently Asked Questions</h2>
+    <div class="container" >-->
+     <!-- <h2>Frequently Asked Questions</h2>-->
+   <!--   <div class="accordion">
+        <div class="accordion-item">
+          <button id="accordion-button-1" aria-expanded="false">
+            <span class="accordion-title">Why we use this site?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+              Ut tortor pretium viverra suspendisse potenti.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-2" aria-expanded="false">
+            <span class="accordion-title">what abhout site?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+              Ut tortor pretium viverra suspendisse potenti.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-3" aria-expanded="false">
+            <span class="accordion-title">Is this really work?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+              Ut tortor pretium viverra suspendisse potenti.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-4" aria-expanded="false">
+            <span class="accordion-title">Can i play on this site?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+              Ut tortor pretium viverra suspendisse potenti.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-5" aria-expanded="false">
+            <span class="accordion-title">How may games in this site?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+              Ut tortor pretium viverra suspendisse potenti.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>       -->
+
+    <div class="box">
+      <p class="heading">FAQs</p>
+      <div class="faqs">
+         <details>
+            <summary>How do I play a match?</summary>
+            <p class="text">Create or join an open match
+              Players can see each others PlayStation network / Xbox live names on game details in Gaming Frog.
+              Online Friendlies
+              Select “New Friendly Season”
+              Select “Name of Friend”
+              At next screen, select “Invite”
+              Next screen enables players to select LEAGUE and CLUB
+              Both players must play as they agreed or the game is null and void.
+              After selecting your club, press “A” or “X” to “Ready!” your selection.
+              Wait for your opponent to “Ready!” their selection as well.
+              When both players are “Ready!” then play the match!</p>
+         </details>
+         <details>
+            <summary>How do I report results?</summary>
+            <p class="text">Once a match is finished players can enter results in the match.
+              Both users have to agree to results.
+              Once results are agreed, funds will be debited to the winners account.
+              In the case that you or your opponent don’t agree to a result a dispute will be created.</p>
+         </details>
+         <details>
+            <summary>What is the maximum amount of money I can play in single matches?</summary>
+            <p class="text">The maximum amount of money you can play in single matches is 1000rs.</p>
+         </details>
+      </div>
+   </div>
+
+
+
+  {% endblock %}
